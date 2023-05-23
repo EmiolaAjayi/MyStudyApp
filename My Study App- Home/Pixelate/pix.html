@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="msa.png" />
+    <link rel="apple-touch-icon" href="msa.png" />
+    <link rel="stylesheet" href="pix.css" />
+    <link rel="preconnect" href="https://fonts.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/alliance-no1" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Alumni+Sans+Pinstripe&family=Instrument+Sans&family=Instrument+Serif&family=Poppins&family=Roboto+Condensed&family=Sofia+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <script src="pix.js" defer></script>
+    <title>Drawing App</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Drawing App</h1>
+      <img src="msa.png"/>
+    </header>
+
+    <main class="main">
+      <div class="settings">
+        <!--<div id="gridSwitch">Grid</div>
+        <input id="gridSlide" type="range" value="off"/>-->
+        <input id="colorPicker" onclick="this.blur();" type="color" value="#0d0d0d" />
+        <button class='button' id="colorMode" onclick="this.blur();">Color Mode</button>
+        <button class='button' id="rainbowMode" onclick="this.blur();">Rainbow Mode</button>
+        <button class='button' id="erase" onclick="this.blur();">Erase</button>
+        <button class='button' id="clear" onclick="this.blur();">Clear</button>
+        <div id="sizeValue">16 x 16</div>
+        <input id="sizeSlide" type="range" value="16" min="3" max="100" />
+      </div>
+      <div id="grid" class="grid"></div>
+    </main>
+
+    <footer>
+      &copy;&nbsp;
+      <p class="name">OluwaseyiEmiolaAjayi</p>
+        <h2>|</h2>
+        <a href="https://github.com/EmiolaAjayi" class="github">Github</a>
+    </footer>
+  </body>
+</html>

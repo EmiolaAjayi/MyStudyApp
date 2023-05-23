@@ -1,0 +1,108 @@
+:root {
+    --main: #f9f9ff;
+    --other: #0d0d0d;
+    --text: #0d0d0d;
+    --col:#f9f9ff;
+    --new:#B3DEE2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--main);
+}
+
+header {
+    background-color: #ffffff;
+    width: 13vw;
+    font-size: 13px;
+    height:100vh;
+    color: black;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.img {
+    width: 32px;
+    height: 32px;
+}
+
+.log {
+    font-family: 'Instrument Serif', sans;
+    padding-top: 3px;
+    font-size: 24px;
+}
+
+
+.icon {
+    width: 20px;
+    padding: 8px;
+    padding-left: 0;
+}
+
+nav ul{
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    flex: 1;
+    gap: 15px
+}
+
+.first  {
+    border-bottom: 1px solid black ;
+}
+
+.last {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid black ;
+}
+
+.calc {
+    margin-left: -4px;
+    margin-right: 5px;
+}
+
+.lib {
+    margin-left: -4px;
+    margin-right: 3px;
+}
+
+.game {
+    margin-left: -4px;
+    margin-right: 3px;
+}
+
+ul li a {
+    height: 3vh;
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover {
+    background-color: var(--new);
+    border-radius: 5px;
+    width: 100%;
+}

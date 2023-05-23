@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link href="https://fonts.cdnfonts.com/css/alliance-no1" rel="stylesheet">
+    <link rel="shortcut icon" href="msa.png" />
+    <link rel="stylesheet" href="to.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Instrument+Sans&family=Instrument+Serif&family=Sofia+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <script src="to.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="msa.png" alt="My Study App" class="img"/>
+      <h1 class="log">To-do List</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="todo-app">
+          <input type="text" id="input-box" placeholder="Write Your Plans" />
+          <button onclick="addTask()">Add</button>
+        </div>
+
+         <ul id="list-container">
+        <!--<div id="each">
+            <img src="be.png" class="change1"/>
+            <!--<i class="fa-solid fa-circle-check" style="color: #00ff04" class="two"></i>-->
+            <!-- <li class="checked">Task</li>
+            <img src="remove.png" class="change2">
+          </div>
+
+          <div id="each">
+            <img src="be.png" class="change1"/>
+            <!--<i class="fa-solid fa-circle-check" style="color: #00ff04" class="two"></i>-->
+            <!-- <li class="checked">Task</li>
+            <img src="remove.png" class="change2">
+          </div> -->
+<!-- 
+          <div id="each">
+            <img src="be.png" class="change1"/>
+            <!--<i class="fa-solid fa-circle-check" style="color: #00ff04" class="two"></i>-->
+            <!-- <li class="checked">Task</li>
+            <img src="remove.png" class="change2">
+          </div>--> 
+        </ul> 
+      </div>
+    </main>
+  </body>
+</html>
